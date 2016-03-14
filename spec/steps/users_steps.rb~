@@ -1,0 +1,35 @@
+# encoding: utf-8
+
+step 'ユーザーççのäèçéをéく' do
+  visit '/users'
+end
+
+step 'çéをçè' do
+  save_and_open_page
+end
+
+step ':name リンクをクリックする' do |name|
+  first(:link, name).click
+end
+
+step ':name ボタンをクリックする' do |name|
+  first(:button, name).click
+end
+
+step 'ユーザーççのæèçéçéがèçされる' do
+  current_path = URI.parse(current_url).path
+  current_path.should == '/users/new'
+end
+
+step 'ユーザーççのèççéがèçされる' do
+  current_path = URI.parse(current_url).path
+  current_path.should == '/users/1'
+end
+
+step 'ユーザーççのæèçéçéをéく' do
+  visit '/users/new'
+end
+
+step ':field に :value とååする' do |field, value|
+  fill_in(field, :with => value)
+end

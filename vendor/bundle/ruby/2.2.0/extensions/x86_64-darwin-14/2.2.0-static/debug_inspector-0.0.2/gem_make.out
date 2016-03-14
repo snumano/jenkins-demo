@@ -1,0 +1,15 @@
+current directory: /Users/snumano/Documents/Rails/circle/vendor/bundle/ruby/2.2.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/Users/snumano/.anyenv/envs/rbenv/versions/2.2.4/bin/ruby -r ./siteconf20160310-6438-okfb0r.rb extconf.rb
+creating Makefile
+
+current directory: /Users/snumano/Documents/Rails/circle/vendor/bundle/ruby/2.2.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/snumano/Documents/Rails/circle/vendor/bundle/ruby/2.2.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/snumano/Documents/Rails/circle/vendor/bundle/ruby/2.2.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20160310-6438-1cjvu2s

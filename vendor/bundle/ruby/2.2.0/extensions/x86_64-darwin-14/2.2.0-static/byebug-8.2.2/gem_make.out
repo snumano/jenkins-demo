@@ -1,0 +1,19 @@
+current directory: /Users/snumano/Documents/Rails/circle/vendor/bundle/ruby/2.2.0/gems/byebug-8.2.2/ext/byebug
+/Users/snumano/.anyenv/envs/rbenv/versions/2.2.4/bin/ruby -r ./siteconf20160310-6438-e940mi.rb extconf.rb
+creating Makefile
+
+current directory: /Users/snumano/Documents/Rails/circle/vendor/bundle/ruby/2.2.0/gems/byebug-8.2.2/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/snumano/Documents/Rails/circle/vendor/bundle/ruby/2.2.0/gems/byebug-8.2.2/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/snumano/Documents/Rails/circle/vendor/bundle/ruby/2.2.0/gems/byebug-8.2.2/ext/byebug
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20160310-6438-1dzbom4/byebug
